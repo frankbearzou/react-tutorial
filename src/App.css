@@ -5,6 +5,20 @@
   text-align: center;
 }
 
+nav {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  padding: 0.25rem 0.5rem;
+}
+
+nav a.active {
+  font-weight: 700;
+  color: #535bf2;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
