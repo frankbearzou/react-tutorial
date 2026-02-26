@@ -1,6 +1,7 @@
 import { Link } from 'react-router'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
+import {Profile} from "./About.tsx";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
           {' | '}
           <Link to="/about">About</Link>
         </p>
+        <Profile />
       </div>
     </>
   )
