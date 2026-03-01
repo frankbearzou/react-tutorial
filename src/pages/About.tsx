@@ -15,12 +15,10 @@ function About() {
           This is a React tutorial project built with Vite, React 19, and TypeScript.
         </p>
         <p>
-          It demonstrates component composition, state management, and routing.
+          <Link to="/counter">Go to Counter</Link>
         </p>
         <p>
-          <Link to="/">Home</Link>
-          {' | '}
-          <Link to="/counter">Go to Counter</Link>
+          It demonstrates component composition, state management, and routing.
         </p>
       </div>
       <article>
